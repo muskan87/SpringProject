@@ -50,6 +50,10 @@ public class CustomerController {
 		else {
 		
 		return "customer-confirmation";
+		}
 	}
+	
+	public void getResponse() {
+		System.out.println("added new sop");
 	}
 }
